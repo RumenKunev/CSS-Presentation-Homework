@@ -1,0 +1,88 @@
+html body{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+form{
+    width: 355px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    background-image: url("../images/formBackground.jpg");
+}
+form fieldset{
+    border: none;
+}
+
+form fieldset legend{
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: #E5E6E8;
+}
+div{
+    width: 100%;
+
+    background-color: rgba(156,175,201,0.4) ;
+    border: 2px solid #9CAFC9;
+    border-radius: 3px;
+    margin: 1px;
+}
+
+label {
+    display: inline-block;
+    font-size: 0.6rem;
+    width:98px;
+    padding-left: 8px;
+}
+p{
+    font-size: 0.6rem;
+}
+
+input, textarea{
+    width: 170px;
+    height: 20px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: none;
+    font-size: 0.7rem;
+    padding: 4px;
+    margin: 5px;
+}
+input.card-type{
+    width: 10px;
+    height: 12px;
+    margin-left: 20px;
+    margin-right:20px;
+}
+.radio-button{
+    display: inline;
+    line-height: 30px;
+
+}
+
+textarea{
+    height: 75px;
+    vertical-align: top;
+}
+#visa:after{
+    content: url("../images/Visa.png");
+    margin-left: 10px;
+}
+
+#amex:after{
+    content: url("../images/AmEx.png");
+    margin-left: 10px;
+}
+
+#mastercard:after{
+    content: url("../images/mastercard.png");
+    margin-left: 10px;
+}
+input[type="submit"]{
+    width: 80px;
+    height: 24px;
+    border-radius: 12.5px;
+    color: #ffffff;
+    background-color: #04152F;
+    display: block;
+    margin: auto;
+}
